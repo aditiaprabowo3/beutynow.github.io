@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Vidaloka', serif;
+}
+ul li{
+    padding: 0 15px;
+}
+ul li a{
+    font-weight: 500;
+    color: #416249;
+}
+footer ul li{
+    list-style: none;
+    margin-left: -45px;
+    padding-bottom: 13px;
+}
+footer ul li a{
+    color: #000;
+    opacity: 0.7;
+    text-decoration: none;
+}
+footer h5{
+    color: #416249;
+    padding-bottom: 13px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        z-index: 9999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 100%;
+        height: 100%;
+        background-color: #f5dbd6;
+        border-radius: 50%;
+        top: 0;
+        left: 0px;
+    }
+    .section-banner .img-content{
+        margin-top: 80px;
+    }
+    .section-treatment .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .section-treatment .text-content{
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .section-card .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -;
+    }
+    .section-card .text-content{
+        margin-top: 40px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .section-mask .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        position: relative;
+    }
+    .section-mask .img-content .circle{
+        width: 100%;
+        height: 92%;
+        background-color: #f6e7e8;
+        border-radius: 50%;
+        top: 0;
+    }
+    .section-mask .text-content{
+        margin-top: 40px;
+        margin-left: 60px;
+        text-align: center;
+    }
+ }
+@media (min-width: 576px) { 
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        z-index: 9999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 100%;
+        height: 100%;
+        background-color: #f5dbd6;
+        border-radius: 50%;
+        top: 0;
+        left: 0px;
+    }
+    .section-banner .img-content{
+        margin-top: 80px;
+    }
+    .section-treatment .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .section-treatment .text-content{
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .section-card .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -;
+    }
+    .section-card .text-content{
+        margin-top: 40px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .section-mask .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        position: relative;
+    }
+    .section-mask .img-content .circle{
+        width: 100%;
+        height: 92%;
+        background-color: #f6e7e8;
+        border-radius: 50%;
+        top: 0;
+    }
+    .section-mask .text-content{
+        margin-top: 40px;
+        margin-left: 60px;
+        text-align: center;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        z-index: 9999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 100%;
+        height: 100%;
+        background-color: #f5dbd6;
+        border-radius: 50%;
+        top: 0;
+        left: 0px;
+    }
+    .section-banner .img-content{
+        margin-top: 80px;
+    }
+    .section-treatment .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .section-treatment .text-content{
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .section-card .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -;
+    }
+    .section-card .text-content{
+        margin-top: 40px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .section-mask .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        position: relative;
+    }
+    .section-mask .img-content .circle{
+        width: 100%;
+        height: 92%;
+        background-color: #f6e7e8;
+        border-radius: 50%;
+        top: 0;
+    }
+    .section-mask .text-content{
+        margin-top: 40px;
+        margin-left: 60px;
+        text-align: center;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .img-content img{
+        width: 110%;
+        height: 110%;
+        margin-left: -90px;
+        z-index: 9999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 100%;
+        height: 100%;
+        background-color: #f5dbd6;
+        border-radius: 50%;
+        top: 0;
+        left: -90px;
+    }
+    .section-banner .img-content{
+        margin-top: 0px;
+    }
+    .section-treatment .img-content img{
+        width: 120%;
+        height: 300px;
+        margin-left: -50px;
+    }
+    .section-treatment .text-content{
+        padding-bottom: 0px;
+        text-align: left;
+    }
+    .section-card .img-content img{
+        width: 75%;
+        height: 75%;
+        margin-left: -80px;
+    }
+    .section-card .text-content{
+        margin-top: 40px;
+        text-align: left;
+    }
+    .section-mask .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        position: relative;
+    }
+    .section-mask .img-content .circle{
+        width: 100%;
+        height: 92%;
+        background-color: #f6e7e8;
+        border-radius: 50%;
+        top: 0;
+    }
+    .section-mask .text-content{
+        margin-top: 10px;
+        margin-left: 60px;
+        text-align: left;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -90px;
+        z-index: 9999;
+        position: relative;
+    }
+    .section-banner .img-content .circle{
+        width: 100%;
+        height: 100%;
+        background-color: #f5dbd6;
+        border-radius: 50%;
+        top: 0;
+        left: -90px;
+    }
+    .section-banner .img-content{
+        margin-top: 0px;
+    }
+    .section-treatment .img-content img{
+        width: 100%;
+        height: 310px;
+        margin-left: -100px;
+    }
+    .section-treatment .text-content{
+        padding-bottom: 0px;
+        text-align: left;
+    }
+    .section-card .img-content img{
+        width: 80%;
+        height: 80%;
+        margin-left: -160px;
+    }
+    .section-card .text-content{
+        margin-top: 50px;
+        text-align: left;
+    }
+    .section-mask .img-content img{
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        position: relative;
+    }
+    .section-mask .img-content .circle{
+        width: 100%;
+        height: 92%;
+        background-color: #f6e7e8;
+        border-radius: 50%;
+        top: 0;
+    }
+    .section-mask .text-content{
+        margin-top: 60px;
+        margin-left: 60px;
+        text-align: left;
+    }
+    .section-sponsor img{
+        width: 15%;
+        height: 15%;
+        margin: 0 20px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
